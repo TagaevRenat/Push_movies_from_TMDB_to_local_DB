@@ -71,7 +71,7 @@ async function getFilmInfo(id: number) {
 }
 
 // 3. Записываем данные в БД
-function pushFilmsToDB(comand: string, counter: number) {
+function pushFilmsToDB(comand: string, counter: number): void {
     const connection = mysql.createConnection({
         host: '127.0.0.1',
         port: "3306",
