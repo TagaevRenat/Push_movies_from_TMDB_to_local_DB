@@ -1,0 +1,21 @@
+{
+  "name": "test_tmdb_servise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "tsc": "npx tsc index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.21"
+  }
+}
